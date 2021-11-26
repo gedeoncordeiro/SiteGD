@@ -44,7 +44,7 @@ header nav a:hover{
     margin: 10px;
 }
 
-footer {
+footer{
     background-color: #105275;
     padding: 30px;
     color: white;
@@ -55,6 +55,9 @@ footer {
     padding-top: 70px;
 }
 
+footer>p{
+    font-size: 12px;
+}
 footer>img{
     width: 200px;
 }
