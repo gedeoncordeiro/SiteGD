@@ -1,8 +1,13 @@
 body {
     font-family: "Open Sans", sans-serif;
-    margin: 0px;
+    margin:0px;
 }
   
+section{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 header {
     height: 122px;
     display: flex;
@@ -12,9 +17,9 @@ header {
     padding-right: 30px;
     box-shadow: 0px -20px 20px 9px #105275;
 }
-header>img{
+/* header>img{
     width: 200px;
-}
+} */
 
 header nav a {
     text-decoration: none;
@@ -40,6 +45,28 @@ header nav a:hover{
     text-align: justify;
    
 }
+
+#section2>div {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#section2 h1{
+    text-align: center;
+    
+}
+
+#section2 img{
+    width: 60px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
 #section2>div{
     margin: 10px;
 }
@@ -52,12 +79,24 @@ footer{
     display: flex;
     align-items: start;
     justify-content: space-around;
-    padding-top: 70px;
+    padding-top: 10px;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer>p{
     font-size: 12px;
 }
-footer>img{
-    width: 200px;
+
+
+footer div img{
+    padding-left: 6px;
+    padding-right: 6px;
 }
+/* footer>img{
+    width: 200px;
+} */
+
+
+/*-------------------Todos os @medias aqui abaixo-------------------*/
+
