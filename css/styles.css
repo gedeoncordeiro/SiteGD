@@ -119,6 +119,7 @@ body{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 section{
     margin-right: 10px;
