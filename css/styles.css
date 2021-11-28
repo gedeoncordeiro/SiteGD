@@ -100,3 +100,39 @@ footer div img{
 
 /*-------------------Todos os @medias aqui abaixo-------------------*/
 
+@media(max-width: 800px){
+body{
+    width: 100%;
+    margin: 0px;
+    
+
+}
+
+#section1 h1{
+    font-size: 20px;
+}
+#section1 h2{
+    font-size: 16px;
+}
+
+#section2{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+section{
+    margin-right: 10px;
+}
+
+header{
+
+    width: 100%;
+
+
+}
+footer{
+    width: 100%;
+
+}
+}
+
